@@ -1,0 +1,117 @@
+/*Geral*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin:0; /* tira a  margenzinha  que  vem por  padrão*/
+}
+
+/* navegação*/
+.nav {
+    background-color: rgb(150, 150, 201);
+    padding: 10px;   
+}
+
+ul {
+    text-align: right;  
+}
+
+.nav > lu,li {
+    list-style: none;
+    display: inline;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header*/
+
+.header{
+    text-align: center;
+    background-color: rgb(204, 226, 243);
+}
+
+/* Seção Top Trends*/
+
+.conteudo h3{
+    text-align: center;
+}
+
+.card {      
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card div  {       
+    display: inline-block;
+    width: 300px;
+}
+
+.card img{
+    width: inherit;  /* herda  a  propriade  da  mãe, aqui 300px*/
+
+}
+/* Seção blog*/
+
+.artigo{
+    width: 700px;
+    margin: 0 auto;
+}
+.imagens{
+    width: 700px;
+    margin: 0 auto;
+}
+.imagens img{
+    display: inline-block;
+    width: 30%;
+}
+.btn-blog{
+    display: block;
+    background-color: red;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px
+}
+/* Seção tabela*/
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;  /* compartilha borda , tira a  duplicidade*/
+    margin-top: 20px;
+}
+
+th,td{
+    padding: 10px;
+
+}
+
+/*Seção form*/
+
+.contato{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+form div{
+    width: 300px;
+    display: inline-block;
+}
+form >input,label{
+    display: block;
+    margin: 10px;
+}
+
+
+/*Footer*/
+
+.footer p{
+    text-align: center;
+}
+
