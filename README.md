@@ -1,2 +1,5 @@
 # projeto-html-CSS-aula
-Projeto feito em  aula.  Aulas de  Html e  CSS .//// Bootcamp Reprograma -Estação Hack Facebook.
+
+Projeto feito nas primeiras  Aulas de  Html e  CSS .
+ Bootcamp Reprograma -Estação Hack Facebook.
+ 
